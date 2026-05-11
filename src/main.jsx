@@ -1277,6 +1277,15 @@ function App() {
         </section>
 
         <aside className="insight-panel" aria-label="market insights">
+          <div className="map-card">
+            <div className="floor-map" aria-hidden="true">
+              <span className="zone blackjack">BJ</span>
+              <span className="zone craps">CR</span>
+              <span className="zone poker">PK</span>
+              <span className="zone book">SB</span>
+            </div>
+          </div>
+
           <div className="insight-block">
             <p className="eyebrow">best right now</p>
             <h3>

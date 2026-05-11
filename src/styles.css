@@ -784,6 +784,66 @@ dd {
   background: linear-gradient(90deg, #a73927, #d9a634, #176b58);
 }
 
+.map-card {
+  border-radius: 8px;
+  background: #10251f;
+  padding: 12px;
+}
+
+.floor-map {
+  position: relative;
+  height: 240px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 250, 240, 0.18);
+  border-radius: 7px;
+  background:
+    linear-gradient(90deg, rgba(255, 250, 240, 0.08) 1px, transparent 1px),
+    linear-gradient(rgba(255, 250, 240, 0.08) 1px, transparent 1px),
+    #1a4a3f;
+  background-size: 34px 34px;
+}
+
+.zone {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 62px;
+  height: 62px;
+  border: 3px solid rgba(255, 250, 240, 0.92);
+  border-radius: 50%;
+  background: #b63c31;
+  color: #fffaf0;
+  font-weight: 950;
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.22);
+}
+
+.blackjack {
+  left: 26px;
+  top: 28px;
+}
+
+.craps {
+  right: 28px;
+  top: 54px;
+  width: 78px;
+  border-radius: 8px;
+  background: #d9a634;
+  color: #18241f;
+}
+
+.poker {
+  left: 54px;
+  bottom: 36px;
+  background: #243f80;
+}
+
+.book {
+  right: 38px;
+  bottom: 28px;
+  background: #fffaf0;
+  color: #10251f;
+}
+
 .insight-block {
   background: #fffaf4;
   color: #17201c;
